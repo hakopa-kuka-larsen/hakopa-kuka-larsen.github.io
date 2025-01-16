@@ -19,6 +19,7 @@ nav {
   background-color: #898121;
   padding: 1rem;
   position: sticky;
+  top: 0px;
 }
 
 nav {
@@ -54,7 +55,8 @@ li {
   height: 1rem;
   border-color: #fda403;
 }
-main-wrap {
+#main-wrap {
+  position: relative;
 }
 
 img {
@@ -102,4 +104,9 @@ p {
   padding: 10px;
   margin: 1cqmax;
   text-align: center;
+}
+
+footer {
+  font-size: 20px;
+  font-family: 'trebuchet ms', sans-serif;
 }
