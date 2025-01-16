@@ -53,6 +53,12 @@ li {
   border-color: #fda403;
 }
 
+.hl {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 1rem;
+  border-color: #fda403;
+}
+
 /* BODY ELEMENTS*/
 
 #main-wrap {

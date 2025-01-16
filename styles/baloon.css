@@ -43,7 +43,6 @@ h2 {
   height: 50px;
   background-color: lightblue;
   text-align: center;
-  line-height: ;
 }
 
 .absolute-container {
@@ -63,7 +62,6 @@ h2 {
   height: 50px;
   background-color: lightgreen;
   text-align: center;
-  line-height: 50px;
 }
 
 .fixed-box {
@@ -136,6 +134,12 @@ li {
   height: 1rem;
   border-color: #fda403;
 }
+.hl {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 1rem;
+  border-color: #fda403;
+}
+
 #main-wrap {
   position: relative;
 }
@@ -143,9 +147,12 @@ li {
 img {
 }
 
+/*seriously just gave up on putting baloon image in, delete or fix later 
+
 #baloon {
   border-radius: ;
 }
+  */
 
 .div-sub-2 {
   background-color: #898121;
