@@ -29,6 +29,7 @@
       </li>
     </ul>
   </nav>
+  
   <body>
     <br />
     <br />
@@ -36,35 +37,105 @@
     <br />
     <br />
     <br />
-    <div class="div-sub-1" class="relative-example">
+    
+    <div class="div-sub-1">
+    
+  <div class="relative-example">
       <h2>Relative Positioning</h2>
       <div class="relative-container">
-        <div class="relative-box">I’m relatively positioned!</div>
+        <div class="reference-point"></div>
+        <div class="relative-box"><p id="p-pos">I’m relatively positioned!</p></div>
+      </div>
+
+      <div class="div-sub-2">
+    <p>For our first example the blue box is positioned relative to 
+      the reference point (the red dot). If you inspect the blue elements css 
+      in the DOM you will see that it has moved 20px <b>from</b> the top, 
+      and 20px <b>from</b> the left of the reference point. The reference point being 
+      the default location ofthe element if no positioning parameters were given.
+    </p>
+    <p>  Note that it does not move 20px <b>to</b> the left, 
+      this initially confused me.
+    </p>
+  </div>
+    </div>
+  </div>
+
+<br>
+
+  <div class="div-sub-1">
+    
+    <div class="absolute-example">
+        <h2>Relative Positioning</h2>
+        <div class="absolute-container">
+          <div class="reference-point"></div>
+          <div class="absolute-box"><p id="p-pos">I’m relatively positioned!</p></div>
+        </div>
+  
+        <div class="div-sub-2">
+      <p>An absolutely positioned element is taken out of the normal document flow, 
+        meaning it doesn't leave empty space where it would have been. Its position 
+        is based on the nearest ancestor with a positioning context (like relative, 
+        absolute, or fixed). If no such ancestor exists, it is positioned relative 
+        to the document's initial containingblock.</p>
+
+        <p>
+        The final position is set using the top, right, bottom, and left values. 
+        When z-index is specified, the element creates a new stacking context. 
+        Additionally, its margins don't collapse with the margins of other elements.
+      </p>
+    </div>
       </div>
     </div>
 
-    <div class="div-sub-2" class="relative-example">
-      Relative Positioning: Imagine a balloon tied to a chair at the party. The
-      balloon can float a little to the left or right (left, top, etc.), but
-      it’s still tied to the chair. Everyone still knows the chair is where the
-      balloon “belongs,” and its original spot is remembered. Key Point: The
-      balloon’s movement is relative to the chair it’s attached to.
-    </div>
-
-    <div class="div-sub-1" class="absolute-example">
-      <h2>Absolute Positioning</h2>
-      <div class="absolute-container">
-        <div class="absolute-box">I’m absolutely positioned!</div>
+    <div class="div-sub-1">
+    
+      <div class="absolute-example">
+          <h2>Relative Positioning</h2>
+          <div class="absolute-container">
+            <div class="reference-point"></div>
+            <div class="absolute-box"><p id="p-pos">I’m relatively positioned!</p></div>
+          </div>
+    
+          <div class="div-sub-2">
+        <p>An absolutely positioned element is taken out of the normal document flow, 
+          meaning it doesn't leave empty space where it would have been. Its position 
+          is based on the nearest ancestor with a positioning context (like relative, 
+          absolute, or fixed). If no such ancestor exists, it is positioned relative 
+          to the document's initial containingblock.</p>
+  
+          <p>
+          The final position is set using the top, right, bottom, and left values. 
+          When z-index is specified, the element creates a new stacking context. 
+          Additionally, its margins don't collapse with the margins of other elements.
+        </p>
       </div>
-    </div>
+        </div>
+      </div>
 
-    <div class="div-sub-2" class="relative-example"></div>
+  
 
-    <div class="div-sub-1" class="fixed-example">
-      <h2>Fixed Positioning</h2>
-      <div class="fixed-box">I’m fixed to the viewport!</div>
-    </div>
 
-    <div class="div-sub-2" class="relative-example"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer> Hakopa Kuka-Larsen 2025 </footer>
   </body>
-</html>
+  
+</htm>
