@@ -17,7 +17,7 @@ nav {
   unicode-bidi: isolate;
   border-style: solid;
   border-radius: 5px;
-  border-color: #e8751a;
+  border-color: #fda403;
   border-radius: 10px;
   z-index: 10;
 }
@@ -45,10 +45,10 @@ li {
 }
 
 .hl {
-  border-top: 10px solid rgb(0, 0, 0);
-  height: 10px;
+  border: 20px solid rgb(0, 0, 0);
   width: auto;
   border-color: #898121;
+  border-radius: 10px;
 }
 
 .vl {

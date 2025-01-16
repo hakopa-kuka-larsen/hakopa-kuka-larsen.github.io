@@ -17,12 +17,13 @@ nav {
   padding: 1rem;
   position: sticky;
   top: 0px;
-}
-
-nav {
   display: block;
   unicode-bidi: isolate;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #fda403;
   border-radius: 10px;
+  z-index: 10;
 }
 
 nav ul {
@@ -32,8 +33,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: space-around;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 nav a {
