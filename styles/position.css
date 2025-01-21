@@ -1,0 +1,123 @@
+/* New elements specific to this css blog
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* rlative Exaple */
+.reference-point {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* RELATIVE*/
+  
+  .relative-container {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 20px auto;
+  }
+  
+  .relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  /*ABSOLUTE*/
+  
+  .absolute-container {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 20px auto;
+  }
+  
+  .absolute-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  
+    height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+  }
+  /* fixed */
+  .fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /*END OF POSITIONING CLASSSSES*/
+  
+  .div-sub-1 {
+    background-color:#b7bcea;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .div-sub-2 {
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'trebuchet ms', sans-serif;
+  }
+
+  #p-pos {
+    font-family: 'trebuchet ms', sans-serif;
+    padding: 0px;
+  }
+
+  footer {
+    font-family: monospace;
+    font-size: small;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px;
+    background-color: ;
+}
+
+
+/* MEDIA REQUESTS */
+
+@media only screen and (max-width: 425px)
+{
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .div-sub-2 {
+    background-color: bisque;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'trebuchet ms', sans-serif;
+  }
+  
+
+}

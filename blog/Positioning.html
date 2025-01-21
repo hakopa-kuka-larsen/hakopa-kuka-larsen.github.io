@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>HAKOPAS BLOG</title>
+    <link rel="stylesheet" href=../styles/main.css>
+    <link rel="stylesheet" href=../styles/position.css>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+       
+        <!--NAVIGATION BAR-->
+ <span class="navspan">
+  
+       
+  <div class="navlogo">
+       
+
+
+        
+    <img class="logo" id="" src="../pics/HAKOPA LOGO.jpeg">
+    
+
+<a href="../index.html">HOME</a>
+  <a class="active" href="blog landing page.html">BLOG</a>
+  <a href="identity-values.html" >INDENTITY</a>
+  <a  href="learning-plan.html">LEARNING PLAN</a>
+  <a href="">CONTACT</a>
+
+  <div id="nav-bottom">
+    
+  </div>
+
+ </div>
+
+
+   <!--CONTENT-->
+
+<div class="content-1">
+    <div class="hempty-box"></div>
+
+
+
+ <h1> POSITIONING IN CSS</h1> 
+
+
+<div class="div-sub-1">
+    
+  <div class="relative-example">
+      <h3>Relative Positioning</h3>
+      <div class="relative-container">
+        <div class="reference-point"></div>
+        <div class="relative-box"><p id="p-pos">I’m relatively positioned!</p></div>
+      </div>
+
+      <div class="div-sub-2">
+    <p>For our first example the blue box is positioned relative to 
+      the reference point (the red dot). If you inspect the blue elements css 
+      in the DOM you will see that it has moved 20px <b>from</b> the top, 
+      and 20px <b>from</b> the left of the reference point. The reference point being 
+      the default location ofthe element if no positioning parameters were given.
+    </p>
+    <p>  Note that it does not move 20px <b>to</b> the left, 
+      this initially confused me.
+    </p>
+  </div>
+    </div>
+  </div>
+
+<br>
+
+  <div class="div-sub-1">
+    
+    <div class="absolute-example">
+        <h3>Absolute Positioning</h3>
+        <div class="absolute-container">
+          <div class="reference-point"></div>
+          <div class="absolute-box"><p id="p-pos">I’m absolutely positioned!</p></div>
+        </div>
+  
+        <div class="div-sub-2">
+      <p>An absolutely positioned element is taken out of the normal document flow, 
+        meaning it doesn't leave empty space where it would have been. Its position 
+        is based on the nearest ancestor with a positioning context (like relative, 
+        absolute, or fixed). If no such ancestor exists, it is positioned relative 
+        to the document's initial containingblock.</p>
+
+        <p>
+        The final position is set using the top, right, bottom, and left values. 
+        When z-index is specified, the element creates a new stacking context. 
+        Additionally, its margins don't collapse with the margins of other elements.
+      </p>
+    </div>
+      </div>
+    </div>
+
+    <div class="div-sub-1">
+    
+   
+          <h3>Fixed Positioning</h3>
+         
+         
+    
+          <div class="div-sub-2">
+        <p>Fixed positioning is different in that it is fixed relative to the browser 
+          window or view port, it does not move relative to other content or scrolling 
+          it is extremely fixed, useful for elements that you want omnipresent and always
+           on screen.</p>
+           <p>Look to the <b>bottom right</b> hand of the page to view the element (light red) 
+            in its fixed position, if you inspect the html in dom you can see that 
+            the element technically resides within the DIV, but the fixed position ignores 
+            and overides this</p>
+           <p>I'd bet that most pop up ads use fixed positioning >:(</p>
+  
+           <div class="fixed-example">
+            
+            
+            <div class="fixed-box">I’m fixed!</div>
+          </div>
+      </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <div class="hl"></div>
+     
+  
+
+
+
+    </div>
+
+    
+
+    <div class="hempty-box"> <!--<img src="pics/chrome-back-mmulti.jpg" id="content-background-img"></div> -->
+
+  
+    <br>
+   <br>
+    
+</div>
+
+</span>
+
+<div><footer>HAKOPA KUKA-LARSEN</footer></div>
+
+
+
+</body>
