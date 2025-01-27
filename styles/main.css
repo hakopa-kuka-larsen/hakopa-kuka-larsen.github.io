@@ -23,6 +23,32 @@ body {
    
 }
 
+#content-img-small {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+position: relative;
+width: 17.5rem;
+border:#5d020b, solid, 2px;
+border-radius: 18px;
+
+    
+   
+}
+
+#content-background-img {
+    display: flex;
+    position: relative;
+    
+    width: 30rem;
+    justify-self: center;
+    margin: 0px;
+    padding: 100px 50px 100px 50px;
+    z-index: -1;
+    opacity: 0.1;
+}
+
 /* NAVBAR STRUCTRE */
 
 .navspan {
@@ -38,7 +64,7 @@ body {
     flex-direction: column;
     margin: 0;
     background-color: bisque;
-    height: 100vh; 
+    /* height: 100vh;  */
     width: 200px;
     position: sticky;
     
@@ -77,31 +103,9 @@ width: 100vw;
 
 }
 
-#content-img-small {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    
-position: relative;
-width: 17.5rem;
-border:#5d020b, solid, 2px;
-border-radius: 18px;
 
-    
-   
-}
 
-#content-background-img {
-    display: flex;
-    position: relative;
-    
-    width: 30rem;
-    justify-self: center;
-    margin: 0px;
-    padding: 100px 50px 100px 50px;
-    z-index: -1;
-    opacity: 0.1;
-}
+
     
 
 
@@ -124,20 +128,21 @@ padding-top: 23px;
 padding-bottom: 10px;
 margin: 10px;
 justify-content:left;
+max-width: 700px;
 }
 
 h1{
     display: flex;
     font-family: roboto;
     color:black;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 1000;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 23px;
     padding-bottom: 100px;
     margin: 0px;
-    justify-content:center;
+    justify-content:left;
 }
 
 
@@ -164,6 +169,19 @@ footer {
     background-color: ;
 }
 
+i {
+    font-family: roboto;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    margin: 10px;
+    justify-content:left;
+    max-width: 700px;
+    background-color: bisque;
+}
+
 /* LINKS+HOver */
 
 a {
@@ -180,7 +198,7 @@ transition: .3s;
 #inline-link {
     background-color: bisque;
 font-family: monospace;
-color: #5d020b;
+color: black;
 border:#5d020b, 0px, solid;
 transition: background-color 0.5s ease, color 0.5s ease; 
 transition: .3s;
@@ -244,12 +262,18 @@ a:hover {
     {
 
         p  {
-            padding-left: 50px;
-padding-right: 50px;
+            padding-left: 15px;
+padding-right: 15px;
 padding-top: 23px;
 padding-bottom: 10px;
 
         }
+h1 {
+        padding-left: 2px;
+        padding-right: 2px;
+        justify-content: center;
+        font-size: 30px;
+    }
 .navspan {
     flex-direction: column;
 }
