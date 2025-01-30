@@ -254,6 +254,15 @@ a:hover {
 
     }
 
+/* spotify */
+
+#spotify {
+    display: flex;
+    flex: auto;
+    justify-content:left;
+    padding-left: 10%;
+}
+
 
 
   
