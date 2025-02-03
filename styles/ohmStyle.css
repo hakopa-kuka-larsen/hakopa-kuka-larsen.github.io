@@ -1,0 +1,68 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+} */
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin: 20px auto;
+    background-color: 
+
+   
+
+.meditated {
+    background-color: green;
+    color: white;
+}
+
+.day {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+
+.completed {
+    background-color: #1E98E1;
+    color: white;
+}
+
+.missed {
+    background-color: #E1671E;
+    color: white;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .calendar {
+        /* display: grid;
+        grid-template-columns: repeat(7, 1fr); */
+        gap: 2px;
+        /* margin: 20px auto;s
+        max-width: 350px;
+        background-color: gray; */
+    }
+
+    .day {
+ 
+    
+    }
+
+
+
+
+
+}
+
