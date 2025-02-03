@@ -8,12 +8,12 @@ body {
    
    }
 
-/* IMAGE CLASSES AND FILTERS */
-   #greyscale {
-    filter: grayscale(100%);
+/* IMAGE CLASSES/IDS AND FILTERS */
+   #greyScale {
+    filter: grayscale(200%);
    }
 
-   #black-white {
+   #black-White {
         filter: grayscale(100%) contrast(200%);
 
    }
@@ -255,8 +255,8 @@ a:hover {
 /* spotify */
 
 #spotify {
-    display: flex;
-    flex: auto;
+    /* display: flex;
+    flex: auto; */
     justify-content:left;
     padding-left: 10%;
 }
