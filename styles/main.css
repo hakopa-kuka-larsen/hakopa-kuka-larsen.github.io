@@ -43,9 +43,7 @@ border-radius: 18px;
     width: auto; 
     max-width: 500px; 
     max-height: 500px;
-
-border:#5d020b, solid, 2px;
-border-radius: 18px;
+    border-radius: 18px;
 }
 
 
@@ -278,6 +276,23 @@ a:hover {
 
 /* TINY MOBILE VIEWPORT FOR MAIN CONTENT DISPLAY (ONLY P CLASSES INSIDE ATM, NEEDD TO ADD OTHER CONTENT CLASSES, SET MARGIN SAE AS P!*/
 
+
+@media only screen and (max-width: 767px) 
+    {
+        #content-img-code 
+        {
+            display:flex;
+            margin-left: auto;
+            margin-right: auto;
+            
+            height: auto; 
+            width: auto; 
+            max-width:320px; 
+            max-height: 500px;
+            border-radius: 18px;
+        }
+    }
+
     @media only screen and (max-width: 425px)
 
     {
@@ -364,4 +379,3 @@ padding-top: 23px;s
 
         }
     }
-
