@@ -9,11 +9,29 @@ function generateCalendar() {
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
     monthYear.textContent = `${monthNames[month]} ${year}`;
-    calendar.innerHTML = "";
+    calendar.innerHTML = ""
+
+
+
+
+
+
+    // ________________________________________________   WRITEE HEREEEE!!!!!!
+
 
     // Array for completed and missed days
-    const completedDays = [4]; // Blue
+    const completedDays = [4,]; // Blue
     const missedDays = [1,2,3]; // Red
+
+
+
+     // ________________________________________________               WRITE HEREEEE!!!!!!!
+
+
+
+
+
+     
 
     // Fill in the empty cells for days in the previous month
     for (let i = 0; i < firstDay; i++) {
