@@ -132,8 +132,8 @@ width: 100vw;
 
 
 p { 
-    font-family: monospace;
-color: #5d020b;
+    font-family: 'Courier New', Courier, monospace;
+color: #180406;
 padding-left: 50px;
 padding-right: 50px;
 padding-top: 23px;
@@ -235,6 +235,7 @@ margin: 25px;
 border:#5d020b, 2px, solid;
 transition: background-color 0.5s ease, color 0.5s ease; 
 transition: .3s;
+text-decoration: none
 }
 
 #inline-link {
@@ -246,6 +247,7 @@ transition: background-color 0.5s ease, color 0.5s ease;
 transition: .3s;
 padding: 0px;
 margin: 5px;
+text-decoration: none
 }
 
 
@@ -258,7 +260,7 @@ a:hover {
     background-color: #5d020b;
     position: relative;
     left: 6px;
-    transition: .3s;
+    transition: .7s;
     }
 
     a:hover {
@@ -276,6 +278,18 @@ a:hover {
         font-size: 30px;
         font-family: monospace;
         color: #5d020b;
+        padding: 18px;
+        margin: 10px 0px 0px 15px;
+        border:#5d020b, 2px, solid;
+        transition: background-color 0.5s ease, color 0.5s ease; 
+        transition: .7s;
+
+    }
+
+    #blog-links:hover {
+        background-color: #5d020b;
+    
+        color: bisque;
         padding: 18px;
         margin: 10px 0px 0px 15px;
         border:#5d020b, 2px, solid;
