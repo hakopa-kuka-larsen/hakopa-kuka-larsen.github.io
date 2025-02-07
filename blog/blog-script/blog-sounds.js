@@ -12,8 +12,8 @@ const activeSounds = [
     new Audio('../sounds/active3.mp3')
 ];
 
-hoverSounds.forEach(sound => sound.volume = 0.001);
-activeSounds.forEach(sound => sound.volume = 0.001);
+hoverSounds.forEach(sound => sound.volume = 0.08);
+activeSounds.forEach(sound => sound.volume = 0.08);
 
 const navLinks = document.querySelectorAll('.nav-link');
 const activeLinks = document.querySelectorAll('.active');
@@ -29,7 +29,7 @@ navLinks.forEach(link => {
         randomHoverSound.play();
         console.log("Hovering on: " + randomHoverSound.src.split('/').pop());
 
-        // theese are really good console logs, I havent thought aabout aadding the split and pop methods to it for cleaner logging
+        // use this console log style moree often, use more methods in your consoleelogs for cleaer results
 
     });
 });

@@ -12,11 +12,12 @@ const activeSounds = [
     new Audio('sounds/active3.mp3')
 ];
 
-hoverSounds.forEach(sound => sound.volume = 0.01);
-activeSounds.forEach(sound => sound.volume = 0.01);
+hoverSounds.forEach(sound => sound.volume = 0.08);
+activeSounds.forEach(sound => sound.volume = 0.08);
 
 const navLinks = document.querySelectorAll('.nav-link');
 const activeLinks = document.querySelectorAll('.active');
+const picLinks = document.querySelectorAll('.button')
 
 function getRandomSound(soundArray) {
     return soundArray[Math.floor(Math.random() * soundArray.length)];
@@ -36,5 +37,13 @@ activeLinks.forEach(link => {
         const randomActiveSound = getRandomSound(activeSounds);
        
         randomActiveSound.play();
+    });
+});
+
+picLinks.forEach(link =>{
+    link.addEventListener('mousedown', () => {
+        const randomActiveSound = getRandomSound(activeSounds);
+    
+        randomActiveSound.play()
     });
 });
