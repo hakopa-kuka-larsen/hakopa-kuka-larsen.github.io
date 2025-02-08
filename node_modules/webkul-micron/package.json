@@ -1,0 +1,73 @@
+{
+  "_from": "webkul-micron",
+  "_id": "webkul-micron@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-wJsSXn1MqTLwOR7JivKtDriEXMBun44uAgPu2uKPjNy/SxuJKbpIv41FD7U5nEhxf32khoEVSU8dOxMaiLXJGw==",
+  "_location": "/webkul-micron",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "webkul-micron",
+    "name": "webkul-micron",
+    "escapedName": "webkul-micron",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/webkul-micron/-/webkul-micron-1.1.0.tgz",
+  "_shasum": "03b568c8a546723a8b5ee4a637423e937ef81de3",
+  "_spec": "webkul-micron",
+  "_where": "/Users/nitishkumar/Desktop/nom",
+  "author": {
+    "name": "Nitish Kumar",
+    "email": "support@webkul.com"
+  },
+  "bugs": {
+    "url": "https://github.com/webkul/micron/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2"
+  },
+  "deprecated": false,
+  "description": "a microInteraction library built with CSS Animations and driven by JavaScript Power",
+  "devDependencies": {
+    "browser-sync": "^2.20.1",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-remove-logging": "^1.2.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "homepage": "https://webkul.github.io/micron/",
+  "keywords": [
+    "micron",
+    "micronjs",
+    "micro interaction",
+    "microinteraction library",
+    "micro interaction css",
+    "micro interaction js",
+    "interaction js",
+    "ui interaction js"
+  ],
+  "license": "MIT",
+  "main": "dist/lib",
+  "directories": {
+    "lib": "dist/lib"
+  },
+  "name": "webkul-micron",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webkul/micron.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "$(npm bin)/gulp"
+  },
+  "version": "1.1.6"
+}
