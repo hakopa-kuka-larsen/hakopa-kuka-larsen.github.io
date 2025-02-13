@@ -20,7 +20,7 @@ function generateCalendar() {
 
 
     // Array for completed and missed days
-    const completedDays = [4,5,6,9,10]; // Blue
+    const completedDays = [4,5,6,9,10,11,12,13]; // Blue
     const missedDays = [1,2,3,7,8]; // Red
 
 
